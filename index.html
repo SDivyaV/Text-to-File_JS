@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Convert Text to File</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <h1>Convert Text to File in JavaScript</h1>
+      <div class="wrapper">
+        <textarea required placeholder="Enter text..."></textarea>
+        <div class="file-options">
+          <div class="option file-name">
+            <label>File name</label>
+            <input type="text" placeholder="Enter file name" />
+          </div>
+          <div class="option save-as">
+            <label>Save as</label>
+            <div class="select-menu">
+              <select>
+                <option value="text/plain">Text File(.txt)</option>
+                <option value="text/javascript">JS File(.js)</option>
+                <option value="text/html">HTML File(.html)</option>
+                <option value="image/svg+xml">SVG File(.svg)</option>
+                <option value="application/msword">DOC File(.doc)</option>
+                <option value="application/vnd.ms-powerpoint">
+                  PPT File(.ppt)
+                </option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <button class="save-btn">Save as Text File</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
